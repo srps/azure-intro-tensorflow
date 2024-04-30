@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "intro-tensorflow"
+version = "0.1.0"
+description = "Sample project for Azure Learning Path: Tensorflow Fundamentals / Introduction to natural language processing with TensorFlow"
+authors = ["Sérgio P. da Silva <sergio.pds@outlook.pt>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11 < 3.12"
+tensorflow_datasets = "4.9.4"
+tensorflow = "^2.16.1"
+scikit-learn = "^1.4.2"
+gensim = "^4.3.2"
+scipy = "~1.12.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

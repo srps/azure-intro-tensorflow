@@ -11,7 +11,7 @@ package-mode = false
 python = ">=3.11 < 3.12"
 tensorflow_datasets = "4.9.4"
 tensorflow = "^2.16.1"
-scikit-learn = "^1.4.2"
+scikit-learn = "^1.5.0"
 gensim = "^4.3.2"
 scipy = "~1.12.0"
 
